@@ -2,6 +2,9 @@ import pymysql
 
 import os
 
+os.environ["DBUSER"] = "admin"
+os.environ["DBPW"] = "Muggle990320!"
+os.environ["DBHOST"] = "hw0-db.cds9giniln3y.us-east-1.rds.amazonaws.com"
 
 class ColumbiaStudentResource:
 
